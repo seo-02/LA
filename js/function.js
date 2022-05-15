@@ -75,14 +75,14 @@ $(function(){
             });
             hollyTit.css({color:'#000'});
         }else{
-            if(windowW>480){
+            if(windowW>640){
                 $(this).addClass('on').stop().animate({
                     left: 750,
                 });
                 hollyTit.css({color:'#fff'});
             }else {
                 $(this).addClass('on').stop().animate({
-                    left:195,
+                    left:350,
                 });
             }
             $(this).parent().css({
